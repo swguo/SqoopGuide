@@ -51,7 +51,7 @@
 
 ---
 
-### **2. 配置 Sqoop 與 MySQL 連接**
+### **2. 配置 Sqoop 與 MySQL 連接**~
 
 #### **步驟 2.1: 添加必要的 JAR 文件**
 1. 下載 MySQL 驅動：
@@ -218,10 +218,10 @@ sqoop export \
 ```bash
     sudo mysql -u root -p
 ```
-在 MySQL 中檢查數據：
+
+選擇 northwind 資料庫
 ```sql
-SELECT COUNT(*) FROM export_customers;
-SELECT COUNT(*) FROM Customers;
+USE northwind;
 ```
 
 ---
